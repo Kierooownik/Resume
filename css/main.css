@@ -4,7 +4,7 @@ body{
     font-family: Roboto;
 }
 .main-content{
-    max-width: 1400px;
+    max-width: 80%;
     margin: 2em 10em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
