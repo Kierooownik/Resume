@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body{
+    background-color: gainsboro;
+    font-family: Roboto;
+}
+.main-content{
+    max-width: 1400px;
+    margin: 2em 10em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "l r1 r1"
+    "l r2 r2"
+    "l r3 r3"
+    ;
+    gap: 2em;
+}
+.content-underline{
+    background-color: #000;
+    height: 1px;
+    border: none;
+    margin: 0 10px;
+}
+.foto{
+    text-align: center;
+}
+.left-side{
+    grid-area: l;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    
+}
+.right-side1{
+    grid-area: r1;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+.right-side2{
+    grid-area: r2;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+.right-side3{
+    grid-area: r3;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+/* Wskaźniki skills~~*/
+.meter div{
+    width: 0%;
+}
+span{
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    float: right;
+    padding: 5px;
+    font-style: italic;
+    margin-top: -0.2rem;
+    margin-right: 0.2rem;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.meter{
+    background-color: #cacecbad;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 -1px -1px rgba(255, 255, 255, 1);
+    width: 100%;
+    margin: auto 0.75rem;
+}
+.stripes {
+    background-size: 30px 30px;
+    background-image: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, .15) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, .15) 50%,
+        rgba(255, 255, 255, .15) 75%,
+        transparent 75%,
+        transparent
+    );
+    animation: animate-stripes 1.25s linear infinite;
+    animation-direction: reverse;
+}
+
+.html{
+    background-color: #2fce44ad;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    animation: html 0.5s linear forwards;
+
+}
+.css{
+    background-color: #2fce44ad;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    animation: css 0.5s linear forwards;
+}
+.c-sharp{
+    background-color: #2fce44ad;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    animation: c-sharp 0.5s linear forwards;
+}
+.photoshop{
+    background-color: #2fce44ad;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    animation: photoshop 0.5s linear forwards;
+}
+.solid{
+    background-color: #2fce44ad;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    animation: solid 0.5s linear forwards;
+}
+.autocad{
+    background-color: #2fce44ad;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    animation: autocad 0.5s linear forwards;
+}
+@keyframes animate-stripes {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 60px 0;
+    }
+}
+@keyframes html{
+    100%{
+        width: 75%;
+    }
+}
+@keyframes css {
+    100%{
+        width: 75%;
+    }
+}
+@keyframes c-sharp {
+    100%{
+        width: 30%;
+    }
+}
+@keyframes photoshop {
+    100%{
+        width: 60%;
+    }
+}
+@keyframes solid {
+    100%{
+        width: 75%;
+    }
+}
+@keyframes autocad {
+    100%{
+        width: 80%;
+    }
+}
+/*~~Wskaźniki skills*/
+#draw{
+    font-size: 0.8rem;
+    display: inline;
+    margin-top: 0.2rem;
+    margin-left: 0.75rem;
+}
+.ikona{
+    width: 2rem;
+    height: 2rem;
+    padding: 2px;
+}
