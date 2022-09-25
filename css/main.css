@@ -21,6 +21,20 @@ body{
     border: none;
     margin: 0 10px;
 }
+.content-img{
+    margin-top: -0.25em;
+    margin-left: 2px;
+    height: 1.5em;
+    vertical-align: middle;
+    padding-right: 0.25em;
+}
+.h-large{
+    font-size: 1.5em;
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
 .foto{
     text-align: center;
 }
@@ -50,6 +64,11 @@ body{
     border-radius: 10px;
 }
 /*-----------------Wskaźniki skills-----------------~~*/
+.skill-ico{
+    width: 2rem;
+    height: 2rem;
+    padding: 2px;
+}
 .meter div{
     width: 0%;
 }
@@ -183,6 +202,40 @@ span{
     }
 }
 /*~~-----------------Wskaźniki skills-----------------*/
+li::marker {
+    font-size: 1.5em;
+}
+.soft-list{
+    margin-top: 0px;
+    margin-right: 1em;
+}
+.cert{
+    margin-top: 0;
+    margin-right: 1em;
+}
+.lang{
+    margin-top: 0;
+}
+.about{
+    margin: 0 2em;
+}
+.date-range{
+    margin-left: 1em;
+}
+h3{
+    display: inline;
+    margin-top: 0rem;
+}
+details{
+    margin: 2em 1em;
+}
+summary >*{
+    display: inline;
+    cursor: pointer;
+}
+.police{
+    margin-left: 3em;
+}
 #draw{
     font-size: 0.8rem;
     display: inline;
@@ -193,4 +246,5 @@ span{
     width: 2rem;
     height: 2rem;
     padding: 2px;
+    margin-bottom: -0.6rem;
 }
