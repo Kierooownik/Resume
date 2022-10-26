@@ -15,7 +15,11 @@ body{
     "l r3 r3"
     ;
     gap: 2em;
-}
+}/*
+.experience{
+    width: 90%;
+    justify-content: center;
+}*/
 .content-underline{
     background-color: #000;
     height: 1px;
@@ -35,7 +39,6 @@ body{
 }
 .h-large{
     font-size: 1.5em;
-    display: inline-block;
     margin-top: 16px;
     margin-bottom: 16px;
     font-weight: 600;
@@ -80,6 +83,7 @@ body{
 #p-lang{
     position: absolute;
     display: inline-block;
+    top: 0.5em;
 }
 .p-lang-content{
     display: none;
@@ -212,27 +216,27 @@ body{
 }
 @keyframes html{
     100%{
-        width: 75%;
+        width: 65%;
     }
 }
 @keyframes css {
     100%{
-        width: 80%;
+        width: 65%;
     }
 }
 @keyframes js {
     100%{
-        width: 30%;
+        width: 25%;
     }
 }
 @keyframes c-sharp {
     100%{
-        width: 20%;
+        width: 25%;
     }
 }
 @keyframes photoshop {
     100%{
-        width: 50%;
+        width: 45%;
     }
 }
 @keyframes solid {
@@ -242,7 +246,7 @@ body{
 }
 @keyframes autocad {
     100%{
-        width: 80%;
+        width: 75%;
     }
 }
 /*~~-----------------Wskaźniki skills-----------------*/
@@ -264,11 +268,15 @@ li::marker {
     margin: 1em 2em;
 }
 .date-range{
-    margin-left: 1em;
+    display: block;
+    margin-top: -1.5em;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
 }
 h3{
-    display: inline;
-    margin-top: 0rem;
+    display: inline-block;
+    margin-top: 0em;
+    margin-left: 1.5em;
 }
 details{
     margin: 2em 1em;
@@ -278,7 +286,7 @@ summary >*{
     cursor: pointer;
 }
 .police{
-    margin-left: 3em;
+    margin-left: 2.5em;
 }
 #draw{
     font-size: 0.8rem;
@@ -295,4 +303,25 @@ summary >*{
 .science-title{
     text-decoration: underline;
     text-underline-offset: 0.25em;
+}
+/*---------------------Urządzenia mobilne-------------*/
+@media screen and (max-width:900px) {
+.main-content{
+    max-width: 80%;
+    margin: 3em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "l l"
+    "l l"
+    "l l"
+    "r1 r1"
+    "r2 r2"
+    "r3 r3"
+    ;
+    gap: 2em;
+}
+}
+footer{
+    text-align: center;
 }
