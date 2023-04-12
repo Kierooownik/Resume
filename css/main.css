@@ -175,11 +175,11 @@ body{
     border-radius: 0.6rem;
     animation: css 0.5s linear forwards;
 }
-.js{
+.dnet{
     background-color: #2fce44ad;
     height: 1.2rem;
     border-radius: 0.6rem;
-    animation: js 0.5s linear forwards;
+    animation: dnet 0.5s linear forwards;
 }
 .c-sharp{
     background-color: #2fce44ad;
@@ -216,27 +216,27 @@ body{
 }
 @keyframes html{
     100%{
-        width: 65%;
+        width: 55%;
     }
 }
 @keyframes css {
     100%{
-        width: 65%;
+        width: 55%;
     }
 }
-@keyframes js {
+@keyframes dnet {
     100%{
-        width: 25%;
+        width: 15%;
     }
 }
 @keyframes c-sharp {
     100%{
-        width: 25%;
+        width: 50%;
     }
 }
 @keyframes photoshop {
     100%{
-        width: 45%;
+        width: 30%;
     }
 }
 @keyframes solid {
